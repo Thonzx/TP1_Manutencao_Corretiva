@@ -12,7 +12,7 @@ Este documento registra os bugs identificados durante a Etapa 2 do trabalho de m
     -   Back-end: `api/views.py`
 -   **Descrição**: Um aluno, na página `QuizDetail.jsx`, preenche todas as questões, clica no botão "Enviar Respostas", mas a atividade não é registrada como entregue. A causa é uma divergência entre os dados que o componente `QuizDetail.jsx` está enviando e o que o back-end (Django) espera receber, resultando em uma falha que não é comunicada corretamente ao usuário.
 
----
+--- 
 
 ### Bug 2: Não é possível fazer login como professor
 
