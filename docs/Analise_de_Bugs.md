@@ -1,14 +1,13 @@
 # Análise e Classificação de Bugs
 
 
-### Bug 1: Quiz publicado pelo professor não é visível para o aluno
+### Bug 1: Aluno não consegue enviar um Quiz
 
 -   **Tipo**: Lógico
 -   **Local Plausível**:
-    -   Front-end: Na página que lista os quizzes para o aluno em quizaluno.jsx.
-    -   Back-end: Na `view` da API que retorna a lista de quizzes disponíveis para um aluno.
--   **Descrição**: Um quiz que foi criado e devidamente publicado pelo professor não está sendo exibido na área de atividades do aluno. O problema provavelmente está na lógica de consulta do back-end, que não está filtrando ou retornando corretamente os quizzes que deveriam estar visíveis para o perfil do aluno.
-
+    -   Front-end: `QuizDetail.jsx`
+    -   Back-end: `api/views.py` (em um app de atividades/quiz, não no app `usuarios`)
+-   **Descrição**: Um aluno, na página `QuizDetail.jsx`, preenche todas as questões, clica no botão "Enviar Respostas", mas a atividade não é registrada como entregue. A causa provável é uma divergência entre os dados que o componente `QuizDetail.jsx` está enviando e o que o back-end (Django) espera receber, resultando em uma falha que não é comunicada corretamente ao usuário.
 ---
 
 ### Bug 2: Não é possível fazer login como professor
