@@ -16,7 +16,7 @@
 -   **Local Plausível**:
     -   Front-end: `Login.jsx`
     -   Back-end: `usuarios/views.py`
--   **Descrição**: Na página de `Login.jsx`, um usuário com credenciais corretas e perfil de "professor" tenta fazer login. Apesar dos dados estarem certos, o sistema retorna uma mensagem de "Usuário ou senha inválidos". O problema reside na lógica do back-end, no arquivo `usuarios/views.py`, que não está validando corretamente o perfil "professor".
+-   **Descrição**: Na página de `Login.jsx`, um usuário com credenciais corretas e perfil de "professor" tenta fazer registro. Apesar dos dados estarem certos, o sistema retorna uma mensagem de erro. O problema reside na lógica do back-end, no arquivo `usuarios/views.py`, que não está validando corretamente o perfil "professor".
 
 ---
 
