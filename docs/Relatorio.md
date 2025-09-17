@@ -33,6 +33,7 @@ Durante a fase de manutenção corretiva, foram identificados, classificados e c
       ![Erro_Conta_Professor](https://github.com/user-attachments/assets/0a7d9a68-84bc-437f-9e99-66935a366f12)
 
    * **Depois:** Nova tentativa de registo com as mesmas informações..
+<img width="1916" height="922" alt="image" src="https://github.com/user-attachments/assets/22bef645-ee11-4b8d-a5e3-1f2ea11c4326" />
 
 
 ---
